@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class CorsoController extends Controller
+{
+    public function corso() {
+
+      return view('corso');
+    }
+}

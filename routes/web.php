@@ -14,3 +14,5 @@
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('privacy-policy', 'StaticPageController@privacyPolicy')->name('privacy_policy');
 Route::get('lavora-con-noi', 'StaticPageController@lavoraConNoi')->name('lavora_con_noi');
+Route::get('corso', 'CorsoController@corso')->name('corso');
+Route::get('metodo', 'MetodoController@metodo')->name('metodo');

@@ -10782,6 +10782,56 @@ header .header_right ul li .nav_btn {
   margin: 20px;
 }
 
+.jambo_corso {
+  width: 100%;
+  height: 200px;
+  margin-top: 70px;
+  color: white;
+  background: #1B3C59;
+}
+
+.jambo_corso .cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.jambo_corso .cont h1 {
+  margin: 30px 0;
+}
+
+.jambo_corso .cont p {
+  text-align: center;
+  font-size: 15px;
+}
+
+.jambo_metodo {
+  width: 100%;
+  height: 200px;
+  margin-top: 70px;
+  color: white;
+  background: #1B3C59;
+}
+
+.jambo_metodo .cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.jambo_metodo .cont h1 {
+  margin: 30px 0;
+}
+
+.jambo_metodo .cont p {
+  text-align: center;
+  font-size: 15px;
+}
+
 .cont {
   display: flex;
   justify-content: center;
