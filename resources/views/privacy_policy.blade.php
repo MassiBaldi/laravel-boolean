@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-  Privacy-Policy
+  Privacy e Policy
 @endsection
 
 @section('content')
