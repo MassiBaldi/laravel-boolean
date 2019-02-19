@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@index')->name('home');
+Route::get('privacy-policy', 'StaticPageController@privacyPolicy')->name('stati_page.privacy_policy');
+Route::get('lavora-con-noi', 'StaticPageController@lavoraConNoi')->name('stati_page.lavora_con_noi');

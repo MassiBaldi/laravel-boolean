@@ -1,0 +1,39 @@
+footer {
+  width: 100%;
+  .footer_header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    img{
+      width: 100%;
+    }
+    ul {
+      list-style: none;
+      li {
+
+        a{
+          color: $link;
+        }
+      }
+    }
+    a {
+      i {
+        margin: 0 10px;
+        font-size: 25px;
+        color: $link;
+      }
+    }
+  }
+  .footer_bottom {
+    width: 100%;
+    height: 70px;
+    background: $blueBackground;
+    span {
+      line-height: 70px;
+      font-size: 10px;
+      color: white;
+    }
+  }
+}
