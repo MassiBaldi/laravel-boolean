@@ -1,7 +1,7 @@
 @extends('layouts.app')
-@section('title')
+{{-- @section('title')
   Lavora-Con-Noi
-@endsection
+@endsection --}}
 
 @section('content')
   <div class="cont">
