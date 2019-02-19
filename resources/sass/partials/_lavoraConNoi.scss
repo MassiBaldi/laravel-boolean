@@ -1,0 +1,26 @@
+.cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .lavoraConNoi {
+    width: 70%;
+    color: $link;
+    h1 {
+      margin: 50px 0;
+      font-weight: 600;
+    }
+    h2 {
+      font-weight: 600;
+      margin: 30px 0;
+    }
+    h3 {
+      display: inline-block;
+      margin-bottom: 20px;
+      font-size: 25px;
+      font-weight: bold;
+    }
+    span, p, li {
+      font-size: 20px;
+    }
+  }
+}

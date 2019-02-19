@@ -14,8 +14,8 @@
         </div>
         <div class="col-3">
           <ul>
-            <li><a href="#">Privacy Policy</a> </li>
-            <li><a href="#">Lavora con noi!</a> </li>
+            <li><a href="{{ route('privacy_policy')}}">Privacy Policy</a> </li>
+            <li><a href="{{ route('lavora_con_noi')}}">Lavora con noi!</a> </li>
           </ul>
         </div>
         <div class="col-3">

@@ -10676,7 +10676,7 @@ header .header_right {
 }
 
 header .header_left {
-  width: 30%;
+  width: 20%;
 }
 
 header .header_left img {
@@ -10685,7 +10685,7 @@ header .header_left img {
 }
 
 header .header_right {
-  width: 70%;
+  width: 80%;
   line-height: 70px;
 }
 
@@ -10708,6 +10708,66 @@ header .header_right ul li .nav_btn {
   padding: 10px 20px;
   color: white;
   background: #fd8d53;
+}
+
+.cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cont .lavoraConNoi {
+  width: 70%;
+  color: #1b3c59;
+}
+
+.cont .lavoraConNoi h1 {
+  margin: 50px 0;
+  font-weight: 600;
+}
+
+.cont .lavoraConNoi h2 {
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+.cont .lavoraConNoi h3 {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.cont .lavoraConNoi span,
+.cont .lavoraConNoi p,
+.cont .lavoraConNoi li {
+  font-size: 20px;
+}
+
+.cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cont .privacyPolicy {
+  width: 70%;
+  color: #1b3c59;
+}
+
+.cont .privacyPolicy h1 {
+  margin: 40px 0;
+  font-weight: 600;
+}
+
+.cont .privacyPolicy span,
+.cont .privacyPolicy p,
+.cont .privacyPolicy li {
+  font-size: 20px;
+}
+
+.cont .privacyPolicy span {
+  display: block;
 }
 
 footer {
