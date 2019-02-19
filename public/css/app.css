@@ -10786,6 +10786,7 @@ header .header_right ul li .nav_btn {
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-top: 70px;
 }
 
 .cont .lavoraConNoi {
