@@ -1,23 +1,23 @@
 <footer>
   <div class="footer_header">
     <div class="row">
-      <div class="col-3">
+      <div class="col-3 footer_img">
         <img src="{{ asset('img/logo.png')}}" alt="">
       </div>
-      <div class="col-3">
+      <div class="col-3 footer_rec">
         <ul>
           <li><a href="#">ciao@boolean.careers</a> </li>
           <li><a href="#">02-40031288</a> </li>
           <li><a href="#">+39 327-9578239</a> </li>
         </ul>
       </div>
-      <div class="col-3">
+      <div class="col-3 footer_page">
         <ul>
           <li><a href="{{ route('privacy_policy')}}">Privacy Policy</a> </li>
           <li><a href="{{ route('lavora_con_noi')}}">Lavora con noi!</a> </li>
         </ul>
       </div>
-      <div class="col-3">
+      <div class="col-3 footer_link">
         <a href="#">
           <i class="fab fa-facebook"></i>
         </a>

@@ -5,17 +5,21 @@ footer {
   width: 100%;
   .footer_header {
     display: flex;
-    align-items: center;
     width: 70%;
     height: 300px;
     align-items: center;
+    .footer_img, .footer_rec, .footer_page, .footer_link {
+      display: flex;
+      align-items: center;
+      height: 100px;
+    }
     img{
       width: 100%;
     }
     ul {
       list-style: none;
+      margin-top: 15px;
       li {
-
         a{
           color: $link;
         }

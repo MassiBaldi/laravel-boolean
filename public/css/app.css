@@ -10846,10 +10846,18 @@ footer {
 
 footer .footer_header {
   display: flex;
-  align-items: center;
   width: 70%;
   height: 300px;
   align-items: center;
+}
+
+footer .footer_header .footer_img,
+footer .footer_header .footer_rec,
+footer .footer_header .footer_page,
+footer .footer_header .footer_link {
+  display: flex;
+  align-items: center;
+  height: 100px;
 }
 
 footer .footer_header img {
@@ -10858,6 +10866,7 @@ footer .footer_header img {
 
 footer .footer_header ul {
   list-style: none;
+  margin-top: 15px;
 }
 
 footer .footer_header ul li a {
