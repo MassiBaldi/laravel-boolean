@@ -10701,8 +10701,13 @@ header .header_right ul li {
 }
 
 header .header_right ul li a {
+  text-decoration: none;
   text-transform: uppercase;
   color: #1b3c59;
+}
+
+header .header_right ul li.active a {
+  border-bottom: 2px solid #61CE4E;
 }
 
 header .header_right ul li .nav_btn {

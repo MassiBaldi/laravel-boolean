@@ -7,12 +7,17 @@ use Illuminate\Http\Request;
 class StaticPageController extends Controller
 {
   public function privacyPolicy() {
-    // $title = 'Privacy-Policy';
-    return view('privacy_policy');//, compact('title'));
+    $data = [
+      'title' => 'Privacy Policy',
+      'description' => 'La Prima fantastica pagina'
+    ];
+    return view('privacy_policy', $data);
   }
-
   public function lavoraConNoi() {
-    // $title = 'Lavora-Con-Noi';
-    return view('lavora_con_noi');//, compact('title'));
+    $data = [
+      'title' => 'Lavora Con Noi',
+      'description' => 'La Prima fantastica pagina'
+    ];
+    return view('lavora_con_noi', $data);
   }
 }

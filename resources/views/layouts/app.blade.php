@@ -2,10 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>
-      {{-- @php $title @endphp --}}
-      @yield('title')
-    </title>
+    <meta name="description" content="{{ $description }}">
+    <title>{{ $title }}</title>
     @yield('additional_css')
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
