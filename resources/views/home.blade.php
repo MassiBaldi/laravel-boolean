@@ -1,7 +1,7 @@
 @extends('layouts.app')
-@section('title')
-  Home
-@endsection
+@section('title', $title)
+@section('meta_description', $description)
+
 
 @section('content')
   <div class="jumbo">

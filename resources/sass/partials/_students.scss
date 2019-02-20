@@ -1,0 +1,47 @@
+.cont_student {
+  margin-top: 70px;
+  padding: 40px 0;
+  .nav_student {
+    display: flex;
+    justify-content: center;
+    select {
+      margin-right: 15px;
+    }
+  }
+  .student {
+    width: 400px;
+    height: 80px;
+    margin: 40px auto;
+    border-radius: 5px;
+    background: $blue;
+    .student-left, .student-right {
+      float: left;
+      height: 100%;
+    }
+    .student-left {
+      padding: 0 20px;
+      width: 30%;
+      img {
+        margin-top: 10px;
+        height: 60px;
+        border-radius: 100%;
+      }
+    }
+    .student-right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 70%;
+      color: white;
+      h3 {
+        font-size: 18px;
+        a {
+          color:white;
+        }
+      }
+      small {
+        font-size: 13px;
+      }
+    }
+  }
+}

@@ -1,7 +1,6 @@
 @extends('layouts.app')
-@section('title')
-  Metodo
-@endsection
+@section('title', $title)
+@section('meta_description', $description)
 
 @section('content')
   <div class="jambo_metodo">

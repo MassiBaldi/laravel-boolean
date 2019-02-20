@@ -1,7 +1,6 @@
 @extends('layouts.app')
-@section('title')
-  Lavora Con Noi
-@endsection
+@section('title', $title)
+@section('meta_description', $description)
 
 @section('content')
   <div class="cont">

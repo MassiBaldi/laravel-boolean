@@ -14,6 +14,9 @@
         <li class="nav_item{{ (Request::route()->getName() == 'metodo') ? ' active' : null }}">
           <a href="{{ route('metodo') }}">Metodo</a>
         </li>
+        <li class="nav_item{{ (Request::route()->getName() == 'students') ? ' active' : null }}">
+          <a href="{{ route('students')}}">Studenti</a>
+        </li>
         <li class="nav_item{{ (Request::route()->getName() == 'privacy_policy') ? ' active' : null }}">
           <a href="{{ route('privacy_policy') }}">Privacy Policy</a>
         </li>

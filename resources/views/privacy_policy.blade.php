@@ -1,7 +1,6 @@
 @extends('layouts.app')
-@section('title')
-  Privacy e Policy
-@endsection
+@section('title', $title)
+@section('meta_description', $description)
 
 @section('content')
   <div class="cont">
