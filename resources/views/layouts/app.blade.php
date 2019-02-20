@@ -15,6 +15,6 @@
 
     @include('partials._footer')
 
-    @yield('additional_js')
+    <script src="{{ asset('js/app.js') }}" charset="utf-8"></script>
   </body>
 </html>
