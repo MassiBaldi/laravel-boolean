@@ -10896,6 +10896,16 @@ header .header_right ul li .nav_btn {
   font-size: 13px;
 }
 
+.cont_card {
+  display: flex;
+  margin-top: 70px;
+  padding-top: 40px;
+}
+
+.cont_card .card {
+  margin: 0 auto;
+}
+
 .cont {
   display: flex;
   justify-content: center;

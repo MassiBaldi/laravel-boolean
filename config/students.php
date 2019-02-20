@@ -47,5 +47,13 @@ return [
     'azienda' => 'Fabbrica digitale',
     'img' => 'https://www.boolean.careers/images/students/bani.png',
     'gender' => 'm'
+  ],
+  [
+    'name' => 'Alessandro Lausdei',
+    'slug' => 'alessandro-laudei',
+    'age' => 27,
+    'azienda' => 'OneDay',
+    'img' => 'https://www.boolean.careers/images/students/lausdei.png',
+    'gender' => 'm'
   ]
 ];
